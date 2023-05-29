@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.font_600_12 {
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.font_400_12 {
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.font_600_14 {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.font_400_14 {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.font_800_16 {
+  font-weight: 800;
+  font-size: 16px;
+}
+
+.font_600_16 {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.font_400_16 {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.font_600_22 {
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.font_400_22 {
+  font-weight: 400;
+  font-size: 22px;
+}
+
+.primary_bg_color {
+  background: #ff385c;
+}
