@@ -1,3 +1,4 @@
+import Provider from "@components/Provider";
 import SiteContentFooter from "@components/SiteContentFooter";
 import SiteContentHeader from "@components/SiteContentHeader";
 import "@styles/globals.css";
@@ -19,9 +20,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={Circular.className}>
-        <SiteContentHeader />
-        {children}
-        <SiteContentFooter />
+        <Provider>
+          <SiteContentHeader />
+          {children}
+          <SiteContentFooter />
+        </Provider>
       </body>
     </html>
   );
